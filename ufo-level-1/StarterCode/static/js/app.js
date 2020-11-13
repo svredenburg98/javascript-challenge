@@ -32,7 +32,6 @@ tableData.forEach(event => {
 
     // remove any data from the table
     tbody.html("");
-    // Select the input element and get the raw HTML node
     var inputElement = d3.select("#datetime");
   
     // Get the value property of the input element
@@ -65,7 +64,7 @@ tableData.forEach(event => {
 
     // remove any data from the table
     tbody.html("");
-    // Select the input element and get the raw HTML node
+
     var inputCity = d3.select("#city");
     var inputDate = d3.select("#date");
     var inputState = d3.select("#state");
